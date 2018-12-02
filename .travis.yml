@@ -10,8 +10,8 @@ deploy:
   region: "us-west-1"
   app: "docker-react-cicd"
   env: "DockerReactCicd-env"
-  bucket-name: ""
-  bucket-path: "docker-react-cicd"
+  bucket_name: ""
+  bucket_path: "docker-react-cicd"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
