@@ -10,7 +10,7 @@ deploy:
   region: "us-west-1"
   app: "docker-react-cicd"
   env: "DockerReactCicd-env"
-  bucket_name: ""
+  bucket_name: "elasticbeanstalk-us-west-1-679790855032"
   bucket_path: "docker-react-cicd"
   on:
     branch: master
