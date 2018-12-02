@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React the right way and with me
+            I am developed in React with docker containers and performed integration pipelining using Travis
           </a>
         </header>
       </div>
