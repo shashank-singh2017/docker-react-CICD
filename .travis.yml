@@ -2,6 +2,6 @@ sudo: required
 services:
   - docker
 before_install:
-  - docker build -t shashank/docker-react-CICD -f Dockerfile.dev .
+  - docker build -t shashank/docker-react-cicd -f Dockerfile.dev .
 script:
-  - docker run shashank/docker-react-CICD npm run test -- --coverage
+  - docker run shashank/docker-react-cicd npm run test -- --coverage
